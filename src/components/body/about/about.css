@@ -1,0 +1,39 @@
+.about{
+    bottom: 45px;
+}
+
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic{
+    height: 420px;
+}
+
+.about-info{
+    font-size: 24px;
+}
+
+.info-name{
+    color: rgb(97, 234, 188);
+    font-size: 27px;
+}
+
+@media only screen and (max-width: 720px) {
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .pic{
+        height: 270px;
+    }
+    .about-info{
+        font-size: 20px;
+    }
+    .info-name{
+        font-size: 26px;
+    }
+}
